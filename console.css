@@ -151,6 +151,15 @@ input:focus::placeholder {
     margin: auto;
 }
 
+.aside__char{
+    font-size: 25vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    color: #08D9D6;
+}
+
 .year{
     margin: -2rem;
     width: 10%;
@@ -172,7 +181,7 @@ input:focus::placeholder {
 }
 
 .footer__description{
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .nav{
